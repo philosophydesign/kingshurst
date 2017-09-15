@@ -1,0 +1,236 @@
+@CHARSET "ISO-8859-1";
+
+.propsrch_metabox .fieldsetinnner {
+	border: 0;
+	padding: 0;
+}
+.propsrch_metabox .inside{
+	padding: 0;
+
+}
+.propsrch_metabox .form-row {
+	background-color: #F9F9FF;
+
+    border: 1px solid #eee;
+    padding: 10px;
+    margin: 2px;;
+}
+
+.propsrch_metabox label {
+	width: 100%;
+	font-weight: bold;
+	color: #333333;
+    font-size: 13px;
+    line-height: 1.5em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 0 3px;
+    display: block;
+    vertical-align: text-bottom;
+}
+
+.propsrch_option_special,
+.propsrch_option_question {
+	background-color: white;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.propsrch_option_special h2,
+.propsrch_option_question h2 {
+	margin-top: 0;
+}
+.propsrch_option_special {
+	overflow: hidden;
+	border: 2px solid #E0E0E0;
+	background-color: #F9F9F9;
+	transition: .5s;
+}
+.propsrch_option_special.regenerating {
+	border: 2px dotted orange;
+	background-color: #F9F9C0;
+}
+.propsrch_option_special.error {
+	border: 2px solid red;
+	background-color: #F9C0C0;
+}
+.propsrch_option_special.success {
+	border: 2px solid green;
+	background-color: #C0F9C0;
+}
+#cachefeedback {
+	clear: both;
+	width: 100%;
+	display: block;
+	color: green;
+	text-shadow: 0 1px 2px white;
+	
+	
+}
+.propsrch_metabox input,
+.propsrch_metabox select {
+	width: 100%;	
+}
+#linkedposttypes .moreoptions {
+	display: none;
+	margin-top: .5em;
+	margin-left: 3em;;
+}
+#linkedposttypes fieldset.active .moreoptions {
+	display: block;
+}
+fieldset.active {
+	padding: .5em;
+	background-color: #FBFBFB;
+	border: 1px solid #EEE;
+	border-radius: 2px;
+	margin: .5em 0;
+}
+span.checkset {
+	background-color: white;
+	overflow-x: hidden;
+	width: 100%;
+	border: 1px solid #E0E0E0;
+	display: block;
+	height: 9em;
+	padding: 5px;
+	overflow-y: scroll;
+	box-sizing: border-box;
+}
+.checkset input {
+	
+}
+.checkset label {
+	font-weight: normal;
+	width: auto;
+	overflow: hidden;
+	display: block;
+	margin-bottom: .5em;
+}
+.checkset input[type=checkbox] {
+	margin-top: .2em;
+	width: auto;
+	float: left;
+}
+.textfield_withselect_container.chosen .propsrchtws_add,
+.textfield_withselect_container.chosen input {
+	display: none;
+}
+.textfield_withselect_container input,
+.textfield_withselect_container select {
+	background-color: #DFD;
+}
+.textfield_withselect_container.chosen select {
+	background-color: white;
+}
+.codelike {
+	width: 100%;
+	height: 15em;
+	background-color: #333;
+	color: #0F0;
+	font-family: courier;
+}
+.propsrch_metabox #row-address,
+.propsrch_metabox #row-status,
+.propsrch_metabox #row-property_type, 
+.propsrch_metabox #row-saletype, 
+.propsrch_metabox #row-tenure, 
+.propsrch_metabox #row-price,
+.propsrch_metabox #row-no_bedrooms,
+.propsrch_metabox #row-total_area,
+.propsrch_metabox #row-latlng
+ {
+	min-width: 16em;
+	width: auto;
+	max-width: 30em;
+	float: left;
+	min-height: 4.75em;
+	width: auto;
+}
+.propsrch_metabox #row-address,
+.propsrch_metabox #row-property_type {
+	min-height: 11.5em;
+}
+
+.propsrch_metabox #row-location_post,
+.propsrch_metabox #row-list_desc,
+.propsrch_metabox #row-location,
+.propsrch_metabox #row-related_items {
+	clear: both;
+
+}
+.propsrch_metabox #row-address {
+	width: 100%;
+	max-width: 30em;
+
+}
+.propsrch_metabox #row-address textarea {
+	width: 100%;
+	height: 8em;
+}
+.propsrch_metabox #row-related_items {
+	
+	padding: 1em 0 0 0;
+	border-bottom: 1px dotted #E0E0E0;
+}
+.propsrch_metabox #row-related_items h2 {
+	font-weight: normal;
+	font-size: 1.2em;
+	text-shadow: 0 1px 1px #FFF;
+	background-color: #DDD;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.relateditem  {
+	min-width: 15em;
+	max-width: 30em;
+	width: auto;
+	background-color: #F9F9F9;
+	min-height: 15em;
+	float: left;
+}
+.relateditem span.checkset {
+	min-height: 13em;
+	
+}
+
+#typeslist ul li {
+	border-bottom: 1px dotted #E9E9E9;
+	padding: 0 .5em .5em 0;
+}
+#typeslist ul li.removed {
+	border: none;
+	padding: 0;
+}
+#typeslist ul li a.cancelupdate,
+#typeslist ul li input.termname {
+	display: none;
+}
+#typeslist ul li input.termname,
+#typeslist ul li span.termname {
+	width: 200px;
+	padding: .3em;
+}
+#typeslist ul li span.termname {
+	display: block;
+	float: left;
+	font-weight: bold;
+}
+#typeslist ul li a.button {
+	margin-right: 0.5em;
+}
+.hastemplatevars label {
+	min-width: 5em;
+	display: block;
+	float: left;
+}
+.function_chooser,
+.variable_chooser {
+	min-width: 20em;
+	
+}
+
+.savebtn {
+	float: right;
+}
+
+

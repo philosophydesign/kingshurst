@@ -1,0 +1,14 @@
+@CHARSET "ISO-8859-1";
+#neighborhoodmap {
+	width: 100%;
+	height: 600px;
+}
+.mapmarkercontent {
+	max-width: 250px;
+}
+
+.poi-map-loading #neighborhoodmap,
+.poi-map-loading #neighborhood-poi-categories,
+.poi-map-loading #development-list {
+	opacity: 0.4;
+}

@@ -1,0 +1,263 @@
+@CHARSET "ISO-8859-1";
+body {
+	font-family: Berling;
+	font-style: italic;
+}
+#page-1 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d3e2e9+50,ffffff+100 */
+	background: #d3e2e9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d3e2e9 50%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #d3e2e9 50%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #d3e2e9 50%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3e2e9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	text-align: center;
+	min-height: 707px;
+}
+
+#page-2 #register-interest {
+	background-color: #e9ece6;
+	padding: 30px;
+}
+#wallpaper {
+	background-image: url(../img/wallpaper.gif);
+	min-height: 400px;
+}
+
+#intro {
+	text-align: left;
+	max-width: 500px;
+	margin: 0 auto;
+}
+#register-interest .fieldsetinner {
+	text-align: left;
+	/* max-width: 600px; */
+	margin: 0 auto;
+}
+div.form-row {
+	width: 50%;
+	float: left;
+	min-height: 2.5em;
+	}
+
+div.form-row textarea,
+div.form-row select, 
+div.form-row input {
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+	border: 1px solid #e9ece6;	
+	transition: .5s;
+	
+}
+div.form-row.error textarea,
+div.form-row.error select, 
+div.form-row.error input {
+	box-shadow: 0 0 2px red;
+	background-color: #F9DcD6;
+	color: #c71234;
+}
+div.form-row.error ::-webkit-input-placeholder {color: #c71234; text-shadow: 0 0px 4px #FFF;}
+div.form-row.error :-moz-placeholder {color: #c71234; text-shadow: 0 0px 4px #FFF;}
+div.form-row.error ::-moz-placeholder {color: #c71234; text-shadow: 0 0px 4px #FFF;}
+div.form-row.error :-ms-input-placeholder {color: #c71234; text-shadow: 0 0px 4px #FFF;}
+
+div.form-row.error textarea:focus,
+div.form-row.error select:focus, 
+div.form-row.error input:focus {
+	background-color: #FFEFE9;
+	box-shadow: 0 0 1px red;
+	outline: 0;
+	color: red;
+}
+
+div.form-row select {
+
+}
+div.form-row.rowtype-body {
+	width: 100%;
+} 
+div.form-row label {
+	display: none;
+}
+#page-1 h1,
+.site-logo {
+	text-align: left;
+	text-indent: -1000px;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+.site-logo {
+	display: block;
+	background-image: url(../img/greenhurst-logo.png);
+	background-size: auto 80px;
+	height: 80px;
+	margin: 0 auto;
+}
+.svg .site-logo {
+	background-image: url(../img/greenhurst-logo.svg);
+}
+#page-1 .site-logo {
+	margin: 0px auto 10px;
+	border-bottom: 1px solid black;
+	padding-bottom: 120px;
+	width: 300px;
+}
+#page-1 h1 {
+	background-image: url(../img/text-yourgateway.png);
+	background-size: 90% auto;
+	background-position: left;
+	height: 141px;
+	margin: 70px auto 50px;
+	max-width: 600px;
+}
+.svg #page-1 h1 {
+	background-image: url(../img/text-yourgateway.svg);
+}
+#page-1 h1 {
+
+}
+#graphics-background {
+	position: relative;
+}
+#graphics-background div {
+	background-repeat: no-repeat;
+	position: absolute;
+	transition: .66s;
+}
+#graphics-background #flower-left-top {
+	background-image: url(../img/flower-left-top.png);
+	width: 235px;
+	height: 800px;
+	left: 30px;
+	top: 0;
+}
+.svg #graphics-background #flower-left-top {
+	background-image: url(../img/flower-left-top.svg);
+}
+
+#graphics-background #flower-left-bot {
+	background-image: url(../img/flower-left-bot.png);
+	background-size: 180px auto;
+	width: 265px;
+	height: 800px;
+	left: 30px;
+	top: 480px;
+}
+.svg #graphics-background #flower-left-bot {
+	background-image: url(../img/flower-left-bot.svg);
+}
+
+
+
+
+#graphics-background #flower-right-top {
+	background-image: url(../img/flower-right-top.png);
+	width: 235px;
+	height: 800px;
+	right: 30px;	
+	top: 0;
+}
+.svg #graphics-background #flower-right-top {
+	background-image: url(../img/flower-right-top.svg);
+}
+
+
+#graphics-background #flower-right-bot {
+	background-image: url(../img/flower-right-bot.png);
+	background-size: 180px auto;
+	background-position:  ;
+	width: 200px;
+	height: 800px;
+	right: 30px;	
+	top: 480px;
+}
+.svg #graphics-background #flower-right-bot {
+	background-image: url(../img/flower-right-bot.svg);
+}
+
+
+
+#graphics-background #peacock-left {
+	background-image: url(../img/peacock-left.png);
+	background-size: contain;
+	background-position: -30px 0;
+	width: 267px;
+	height: 200px;
+	left: 0;
+	top: 320px;
+}
+.svg #graphics-background #peacock-left {
+	background-image: url(../img/peacock-left.svg);
+}
+#graphics-background #peacock-right {
+	background-image: url(../img/peacock-right.png);
+	background-size: contain;
+	width: 105px;
+	height: 200px;
+	right: 0;
+	top: 330px;
+}
+.svg #graphics-background #peacock-right {
+	background-image: url(../img/peacock-right.svg);
+}
+
+a#register-anchor {
+	border: 1px solid black;
+	color: black;
+	padding: .5em 2em;
+	text-transform: uppercase;
+	display: inline-block;
+	width: auto;
+	
+	margin: 1em auto;
+	
+}
+
+#page-2-content {
+	text-align: left;
+	max-width: 700px;
+	margin: 0 auto;
+}
+#page-2 .site-logo {
+	margin-bottom: 50px;
+}
+
+@media (max-width: 1199px) {
+	#graphics-background #peacock-left {width: 20%;}
+	#graphics-background #peacock-right {width: 10%;}
+}
+@media (max-width: 996px) {
+	
+}
+@media (max-width: 768px) {
+	#graphics-background #flower-left,
+	#graphics-background #flower-right {
+		width: 100px;
+	}
+	#page-1 h1 {margin: 10px auto;}
+	#graphics-background #flower-left-top {
+		width: 140px;
+		left: 0;
+	}
+	#graphics-background #flower-right-top {
+		width: 140px;
+		right: 0;
+	}
+	#graphics-background #flower-left-bot {
+		width: 100px;
+		background-size: 100% auto;
+		left: 0;
+	}
+	#graphics-background #flower-right-bot {
+		width: 100px;
+		background-size: 100% auto;
+		right: 0;
+	}
+	
+
+	#graphics-background #peacock-left {top: 256px; width: 120px;}
+	#graphics-background #peacock-right {top: 400px;}
+	#intro {width: 80%;margin-top: 50px;}
+
+}

@@ -1,0 +1,363 @@
+@CHARSET "ISO-8859-1";
+.horizontal-tabs {
+	width: 100%;
+	height: auto;
+	overflow: hidden;	
+	display: block;
+	border-bottom: 1px solid #ccc;
+    margin: 0;    
+    padding-bottom: 0;
+    line-height: inherit;
+    position: absolute;
+	
+}
+.horizontal-tabs li {
+	cursor: pointer;
+	margin: 2px;
+	padding: 5px;
+	float: left;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    margin-left: .5em;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 24px;
+    background: #e5e5e5;
+    color: #555;
+    position: relative;
+	top: 3px;
+}
+.horizontal-tabs li:hover {
+	background-color: white;
+}
+
+.horizontal-tabs li.active {
+	border-bottom: 1px solid #f1f1f1;
+    background: #f1f1f1;
+    color: #000;
+}
+.tab-container {
+	display: none;
+	
+}
+.tab-container.active {
+	display: block;
+
+}
+
+#form-settings,
+#form-preview,
+#form-edit {
+	width: 100%;
+	max-width: 45em;
+	margin: 0 .5% 0;
+	float: left;
+
+}
+.gesform.tab-container {
+	margin-top: 4em !important;
+
+}
+.gesform.tab-container #form-react-root {
+	margin: 2em 0;
+}
+.gesform p.topbar {
+	margin: 0 0  3px 0 ;
+	padding: 1px;
+	min-height: calc(1em + 10px);
+	background-color: #bdcbe8;
+	border: 1px solid #a4b2d2;
+	border-radius: 3px;	
+	transition: .5s;
+}
+
+.gesform .minimized p.topbar {
+	background-color: transparent;
+	border-color: transparent;
+}
+.gesform p.topbar span.boxtitle {
+	padding: 5px;
+	color: #112858;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-shadow: 0 1px 2px #FFF;
+}
+.gesform .minimized p.topbar span.boxtitle {
+	color: #556;
+}
+.gesform p.topbar a {
+	float: right;
+	text-decoration: none;
+	color: #112858;
+	font-size: 1.1em;
+	font-weight: bold;
+	display: inline-block;
+	padding: 2px;
+	background-color: #EEE;
+	line-height: 1rem;	
+	width: 20px;
+	text-align: center;
+	border: 2px solid #8496bb;
+	border-radius: 10px;
+	outline: 0;
+	box-shadow: 0;
+	margin-left: 2px;
+}
+.gesform p.topbar a:active,
+.gesform p.topbar a:focus {
+	outline: 0;
+	box-shadow: 0;
+
+}
+.gesform.tab-container .fieldsetinner {
+	border: 1px solid #bbb;
+	background-color: #F4F4F4;
+	padding: 5px;
+	margin: 5px 0;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	border-radius: 5px;
+}
+.gesform.tab-container .minimized.fieldsetinner {
+	border-color: #ddd;
+	box-shadow: 0 0px 1px rgba(0,0,0,0.1);
+	margin: 3px 0;
+}
+.gesform.tab-container .fieldsetinner:first-child,
+.gesform.tab-container .minimized.fieldsetinner:first-child {
+	margin-top: 0;
+}
+.gesform  .form-row > label {
+	box-sizing: border-box;
+	margin-bottom: 4px;
+	width: 25%;
+	float: left;
+	min-height: 1em;
+	font-weight: normal;
+	color: #000;
+	text-shadow: 0 1px 0 #EEE;
+	padding: 5px;
+	height: 100%;
+	background-color: #d1dcf3;
+	border: 1px solid #b8c3dc;
+	position: absolute;
+	border-radius-top-left: 3px;
+	border-radius-bottom-left: 3px;
+}
+.gesform .form-row {
+	position: relative;
+	min-height: 3em;
+	border-radius: 4px;
+	color: black;
+	margin-bottom: 1px;
+	clear: both;
+	height: auto;
+	overflow: hidden;
+	/* padding: 15px 0; */
+	border: 1px solid #EFEFEF;
+	
+	background-color: #DFDFDF;
+}
+
+.gesform .form-row.lastingroup {
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	
+}
+
+.gesform .form-row.rowtype-body textarea {
+	height: 5em;
+}
+.gesform .form-row.mult-rowindex  input {
+	width: 3em;
+}
+
+.gesform .form-row textarea,
+.gesform .form-row select,
+.gesform .form-row input[type=textfield] {
+	width: calc(75% - 12px);
+}
+.gesform .form-row-label input {
+	/* font-size: 1.5em; */
+}
+.gesform .form-row .radioset,
+.gesform .form-row textarea,
+.gesform .form-row select,
+.gesform .form-row input {
+	left: 25%;
+	border: 1px solid #C0C0C0;
+	border-radius: 2px;
+	position: relative;
+	box-sizing: border-box;
+	margin: 5px;
+}
+.gesform .form-row input[type=radio] {
+	border-radius: 10px;
+}
+.gesform .form-row textarea {
+	height: 10em;
+}
+.gesform .form-row .radioset {
+	border: none;
+	padding: 0;
+}
+.gesform .form-row .radioset-duo input {
+	float: none;
+	position: static;
+	
+}
+.minimized .form-row-label label, 
+.minimized .form-row  {
+	display: none;
+}
+
+.gesform .minimized .form-row-label input {
+	width: calc(100% - 10px);
+	left: 0;
+	
+}
+
+
+.add-new-row {
+	float: right;
+}
+.useragentdetail {
+	display: block;
+	padding: 3px;
+	background-color: white;
+	border: 1px dotted #DDD;
+	max-width: 200px;
+	font-size: .8em; 
+}
+.browser-logo {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 1em;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.browser-logo.chrome {
+	background-image: url('../img/logo_chrome.png');
+}
+.browser-logo.edge {
+	background-image: url('../img/logo_edge.png');
+}
+.browser-logo.internet-explorer {
+	background-image: url('../img/logo_ie.png');
+}
+.browser-logo.firefox {
+	background-image: url('../img/logo_firefox.png');
+}
+.browser-logo.opera {
+	background-image: url('../img/logo_opera.png');
+}
+.ua_hover_toggle .useragentdetail {
+	display: none;
+}
+.ua_hover_toggle:hover .useragentdetail {
+	display: block;
+	position: absolute;
+}
+#submission-table.inbackground {
+	opacity: .4;
+}
+#RI-popup-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+#RI-popup-content {
+	width: 40%;
+	max-height: 500px;
+	overflow-y: scroll;
+	min-width: 200px;
+	max-width: 500px;
+	margin: 15% auto 0;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+	background-color: white;
+	padding: 0px;
+	border-radius: 3px;
+}
+#submission-meta {
+	padding: 10px;
+	color: white;
+	background-color: #23282d;	
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+#submission-meta p {
+	margin: 0 1em 0 0;
+	display: block;
+	float: left;
+}
+#close-submission-box {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+#submission-meta #submission-browser {
+	float: right;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	margin-right: 0;
+	text-align: center;
+	font-size: .55rem;
+	color: #999;
+}
+#submission-meta #submission-browser .browser-logo {
+	margin-right: 0;
+	float: right;
+}
+
+
+.gesform div .fieldsetinner:last-child .topbar a[data-movedirection="down"],
+.gesform div .fieldsetinner:first-child .topbar a[data-movedirection="up"] {
+	display: none;
+}
+
+
+span.hasread {
+	display: inline-block;
+	padding-left: 40px;
+	background-repeat: no-repeat;
+	min-height: 30px;
+	margin-right: 10px;
+}
+span.hasread.hasread-no {
+	background-position: 0 -10px;
+	background-image: url(../img/envelope_closed.png);
+}
+span.hasread.hasread-yes {
+	background-image: url(../img/envelope_open.png);
+}
+
+
+.statbox {
+	background-color: rgba(255,255,255,0.5);
+	float: left;
+	padding: 10px;
+	margin: 0 10px 10px 0;
+}
+.statbox h3 {
+	margin-top: 0;
+}
+.statbox table {
+	border-spacing: 1;
+}
+.statbox th {
+	text-align: right;
+	background-color: rgba(255,255,255,0.3);;
+}
+.statbox th,
+.statbox td {
+	padding: .5em;
+}
+.statbox td {
+	background-color: rgba(255,255,255,0.5);;
+
+}

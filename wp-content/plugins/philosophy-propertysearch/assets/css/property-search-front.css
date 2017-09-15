@@ -1,0 +1,25 @@
+@CHARSET "ISO-8859-1";
+.propsrch_form {
+	position: relative;
+}
+.propsrch_ajax_loading .propsrch_form {
+	opacity: .33;
+}
+.propsrch_ajax_loading .formblocker {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+}
+#propsrch_map {
+	width: 100%;
+	min-height: 600px;
+}
+.propsrchmaploading #propsrch_map  {
+	background-color: #eee;
+}
+.propsrchmaploading #propsrch_map * {
+	display: none;
+}

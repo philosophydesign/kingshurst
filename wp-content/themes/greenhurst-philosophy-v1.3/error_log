@@ -1,0 +1,4 @@
+[28-Apr-2017 15:04:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/kingshursthomesc/public_html/wp-content/themes/greenhurst-philosophy-v1.3/index.php on line 2
+[01-May-2017 00:18:29 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/kingshursthomesc/public_html/wp-content/themes/greenhurst-philosophy-v1.3/index.php on line 2
+[14-May-2017 01:58:59 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/kingshursthomesc/public_html/wp-content/themes/greenhurst-philosophy-v1.3/index.php on line 2
+[17-May-2017 07:12:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/kingshursthomesc/public_html/wp-content/themes/greenhurst-philosophy-v1.3/index.php on line 2

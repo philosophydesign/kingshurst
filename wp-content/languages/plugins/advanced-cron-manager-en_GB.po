@@ -1,0 +1,373 @@
+# Translation of Plugins - Advanced Cron Manager &#8211; debug &amp; control - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Advanced Cron Manager &#8211; debug &amp; control - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-19 01:13:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Advanced Cron Manager &#8211; debug &amp; control - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "https://underdev.it"
+msgstr "https://underdev.it"
+
+#. Author of the plugin/theme
+msgid "underDEV"
+msgstr "underDEV"
+
+#. Description of the plugin/theme
+msgid "View, pause, remove, edit and add WP Cron events."
+msgstr "View, pause, remove, edit, and add WP Cron events."
+
+#: views/parts/searchbox.php:8
+msgid "Search events..."
+msgstr "Search events..."
+
+#: views/parts/schedules/section.php:11
+msgid "Schedules"
+msgstr "Schedules"
+
+#: views/parts/schedules/row.php:25
+msgid "Trash"
+msgstr "Trash"
+
+#: views/parts/schedules/row.php:24
+msgid "This schedule is protected and you cannot remove it"
+msgstr "This schedule is protected and you cannot remove it"
+
+#: views/parts/schedules/row.php:22 views/parts/schedules/row.php:28
+#: views/parts/schedules/row.php:29
+msgid "Edit"
+msgstr "Edit"
+
+#: views/parts/schedules/row.php:21
+msgid "This schedule is protected and you cannot edit it"
+msgstr "This schedule is protected and you cannot edit it"
+
+#: views/parts/schedules/row.php:15
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d second"
+msgstr[1] "%d seconds"
+
+#: views/parts/schedules/header-row.php:11
+msgid "Actions"
+msgstr "Actions"
+
+#: views/parts/schedules/header-row.php:8
+msgid "Label"
+msgstr "Label"
+
+#: views/parts/events/tabs/logs.php:16
+msgid "Get Advanced Cron Manager PRO now!"
+msgstr "Get Advanced Cron Manager PRO now!"
+
+#: views/parts/events/tabs/logs.php:14
+msgid "Debugging tool"
+msgstr "Debugging tool"
+
+#: views/parts/events/tabs/logs.php:13
+msgid "Performance stats"
+msgstr "Performance stats"
+
+#: views/parts/events/tabs/logs.php:12
+msgid "Error catcher"
+msgstr "Error catcher"
+
+#: views/parts/events/tabs/logs.php:11
+msgid "Logging executed tasks"
+msgstr "Logging executed tasks"
+
+#: views/parts/events/tabs/logs.php:9
+msgid "These includes:"
+msgstr "These includes:"
+
+#: views/parts/events/tabs/logs.php:8
+msgid "Get insights from your Cron system with Advanced Cron Manager PRO!"
+msgstr "Get insights from your Cron system with Advanced Cron Manager PRO!"
+
+#: views/parts/events/tabs/implementation.php:11
+msgid "You can paste this anywhere between <?php and ?> tags."
+msgstr "You can paste this anywhere between <?php and ?> tags."
+
+#: views/parts/events/tablenav.php:26
+msgid "All Schedules"
+msgstr "All Schedules"
+
+#: views/parts/events/tablenav.php:9
+msgid "Bulk Actions"
+msgstr "Bulk Actions"
+
+#: views/parts/events/row.php:69
+msgid "In %s"
+msgstr "In %s"
+
+#: views/parts/events/row.php:67
+msgid "In queue"
+msgstr "In queue"
+
+#: views/parts/events/row.php:54 views/parts/events/tablenav.php:19
+#: views/parts/schedules/row.php:31 views/parts/schedules/row.php:32
+msgid "Remove"
+msgstr "Remove"
+
+#: views/parts/events/row.php:52
+msgid "Protected"
+msgstr "Protected"
+
+#: views/parts/events/row.php:47
+msgid "Pause"
+msgstr "Pause"
+
+#: views/parts/events/row.php:45
+msgid "Unpause"
+msgstr "Unpause"
+
+#: views/parts/events/row.php:41 views/parts/events/tablenav.php:10
+msgid "Execute now"
+msgstr "Execute now"
+
+#: views/parts/events/row.php:38
+msgid "Details"
+msgstr "Details"
+
+#: views/parts/events/header-row.php:13
+msgid "Next execution"
+msgstr "Next execution"
+
+#: views/parts/events/header-row.php:10
+msgid "Event"
+msgstr "Event"
+
+#: views/forms/schedule/add.php:37 views/forms/schedule/edit.php:43
+msgid "Total seconds:"
+msgstr "Total seconds:"
+
+#: views/forms/schedule/add.php:32 views/forms/schedule/edit.php:38
+msgid "Seconds"
+msgstr "Seconds"
+
+#: views/forms/schedule/add.php:28 views/forms/schedule/edit.php:34
+msgid "Minutes"
+msgstr "Minutes"
+
+#: views/forms/schedule/add.php:24 views/forms/schedule/edit.php:30
+msgid "Hours"
+msgstr "Hours"
+
+#: views/forms/schedule/add.php:20 views/forms/schedule/edit.php:26
+msgid "Days"
+msgstr "Days"
+
+#: views/forms/schedule/add.php:17 views/forms/schedule/edit.php:23
+#: views/parts/schedules/header-row.php:10
+msgid "Interval"
+msgstr "Interval"
+
+#: views/forms/schedule/add.php:14 views/forms/schedule/edit.php:19
+#: views/parts/schedules/header-row.php:9
+msgid "Slug"
+msgstr "Slug"
+
+#: views/forms/schedule/add.php:11 views/forms/schedule/edit.php:16
+msgid "Display name"
+msgstr "Display name"
+
+#: views/forms/event/add.php:36
+msgid "New inputs will be added automatically when you type"
+msgstr "New inputs will be added automatically when you type"
+
+#: views/forms/event/add.php:28
+msgid "Don't repeat (%s)"
+msgstr "Don't repeat (%s)"
+
+#: views/forms/event/add.php:25
+msgid "After first execution repeat:"
+msgstr "After first execution repeat:"
+
+#: views/forms/event/add.php:20
+msgid "When past date will be provided or left empty, event will be executed in the next queue"
+msgstr "When past date will be provided or left empty, event will be executed in the next queue"
+
+#: views/forms/event/add.php:19
+msgid "First execution"
+msgstr "First execution"
+
+#: views/forms/event/add.php:16
+msgid "Should contain only lowercase letters, numbers and _"
+msgstr "Should contain only lowercase letters, numbers and _"
+
+#: views/forms/event/add.php:15
+msgid "Hook"
+msgstr "Hook"
+
+#: views/elements/add-schedule-button.php:7
+msgid "Add new schedule"
+msgstr "Add new schedule"
+
+#: views/elements/add-event-button.php:7
+msgid "Add new event"
+msgstr "Add new event"
+
+#: inc/Assets.php:63
+msgid "Pausing..."
+msgstr "Pausing..."
+
+#: inc/Assets.php:62
+msgid "Removing..."
+msgstr "Removing..."
+
+#: inc/Assets.php:61 views/parts/events/tablenav.php:35
+msgid "events"
+msgstr "events"
+
+#: inc/Assets.php:60
+msgid "Event has been executed with errors"
+msgstr "Event has been executed with errors"
+
+#: inc/ScreenRegisterer.php:35 views/wrapper.php:15
+msgid "Cron Manager"
+msgstr "Cron Manager"
+
+#: inc/FormProvider.php:118
+msgid "Add event"
+msgstr "Add event"
+
+#: inc/FormProvider.php:118
+msgid "New event"
+msgstr "New event"
+
+#: inc/FormProvider.php:104
+msgid "Edit schedule"
+msgstr "Edit schedule"
+
+#: inc/FormProvider.php:104
+msgid "Edit \"%s\" schedule"
+msgstr "Edit \"%s\" schedule"
+
+#: inc/FormProvider.php:87
+msgid "Add schedule"
+msgstr "Add schedule"
+
+#: inc/FormProvider.php:87
+msgid "New schedule"
+msgstr "New schedule"
+
+#: inc/Cron/SchedulesLibrary.php:186
+msgid "Schedule with slug \"%s\" cannot be removed because it doesn't exists"
+msgstr "Schedule with slug \"%s\" cannot be removed because it doesn't exist"
+
+#: inc/Cron/SchedulesLibrary.php:150
+msgid "Schedule \"%s\" is protected and you cannot edit it"
+msgstr "Schedule \"%s\" is protected and you cannot edit it"
+
+#: inc/Cron/SchedulesLibrary.php:146
+msgid "Schedule with slug \"%s\" doesn't exists"
+msgstr "Schedule with slug \"%s\" doesn't exist"
+
+#: inc/Cron/SchedulesLibrary.php:140
+msgid "Schedule with slug \"%s\" already exists"
+msgstr "Schedule with slug \"%s\" already exists"
+
+#: inc/Cron/SchedulesLibrary.php:136
+msgid "Interval cannot be shorter than 1 second"
+msgstr "Interval cannot be shorter than 1 second"
+
+#: inc/Cron/SchedulesLibrary.php:132
+msgid "Please, provide a slug for your Schedule"
+msgstr "Please, provide a slug for your Schedule"
+
+#: inc/Cron/SchedulesLibrary.php:128
+msgid "Please, provide a name for your Schedule"
+msgstr "Please provide a name for your Schedule"
+
+#: inc/Cron/SchedulesActions.php:103
+msgid "Schedule \"%s\" has been removed"
+msgstr "Schedule \"%s\" has been removed"
+
+#: inc/Cron/SchedulesActions.php:79
+msgid "Schedule \"%s\" has been edited"
+msgstr "Schedule \"%s\" has been edited"
+
+#: inc/Cron/SchedulesActions.php:55
+msgid "Schedule \"%s\" has been added"
+msgstr "Schedule \"%s\" has been added"
+
+#: inc/Cron/Schedules.php:91
+msgid "Single event"
+msgstr "Single event"
+
+#: inc/Cron/EventsLibrary.php:169
+msgid "Event not found and cannot be unpaused"
+msgstr "Event not found and cannot be unpaused"
+
+#: inc/Cron/EventsLibrary.php:136
+msgid "Event not found and cannot be paused"
+msgstr "Event not found and cannot be paused"
+
+#: inc/Cron/EventsLibrary.php:111
+msgid "Event not found and cannot be unscheduled"
+msgstr "Event not found and cannot be unscheduled"
+
+#: inc/Cron/EventsLibrary.php:78
+msgid "Schedule \"%s\" cannot be found"
+msgstr "Schedule \"%s\" cannot be found"
+
+#: inc/Cron/EventsLibrary.php:72
+msgid "Please, provide a hook for your Event"
+msgstr "Please provide a hook for your Event"
+
+#: inc/Cron/EventsActions.php:178
+msgid "Event \"%s\" has been unpaused"
+msgstr "Event \"%s\" has been unpaused"
+
+#: inc/Cron/EventsActions.php:154
+msgid "Event \"%s\" has been paused"
+msgstr "Event \"%s\" has been paused"
+
+#: inc/Cron/EventsActions.php:130
+msgid "Event \"%s\" has been removed"
+msgstr "Event \"%s\" has been removed"
+
+#: inc/Cron/EventsActions.php:124
+msgid "Event \"%s\" is protected and you cannot remove it"
+msgstr "Event \"%s\" is protected and you cannot remove it"
+
+#: inc/Cron/EventsActions.php:107
+msgid "Event \"%s\" has been executed"
+msgstr "Event \"%s\" has been executed"
+
+#: inc/Cron/EventsActions.php:83
+msgid "Event \"%s\" with %d argument has been scheduled (%s)"
+msgid_plural "Event \"%s\" with %d arguments has been scheduled (%s)"
+msgstr[0] "Event \"%s\" with %d argument has been scheduled (%s)"
+msgstr[1] "Event \"%s\" with %d arguments has been scheduled (%s)"
+
+#: inc/AdminScreen.php:59
+msgid "Implementation"
+msgstr "Implementation"
+
+#: inc/AdminScreen.php:58 views/forms/event/add.php:24
+#: views/parts/events/header-row.php:11
+msgid "Schedule"
+msgstr "Schedule"
+
+#: inc/AdminScreen.php:57 views/forms/event/add.php:35
+#: views/parts/events/header-row.php:12
+msgid "Arguments"
+msgstr "Arguments"
+
+#: inc/AdminScreen.php:56
+msgid "Logs"
+msgstr "Logs"
+
+#. #-#-#-#-#  advanced-cron-manager-code.pot (Advanced Cron Manager 2.1.2) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: advanced-cron-manager.php:17 inc/ScreenRegisterer.php:34
+msgid "Advanced Cron Manager"
+msgstr "Advanced Cron Manager"

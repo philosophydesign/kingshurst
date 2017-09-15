@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+
+@font-face {
+    font-family: 'Berling';
+    src: url('../fonts/Berling.eot');
+    src: url('../fonts/Berling.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Berling.woff2') format('woff'),
+    url('../fonts/Berling.ttf') format('truetype'),
+    url('../fonts/Berling.svg#Berling') format('svg');
+}
+
+
